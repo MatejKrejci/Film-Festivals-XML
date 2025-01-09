@@ -36,15 +36,5 @@ The XML document can be validated and transformed using any standard XML process
 - A responsive HTML website with festival details and navigation
 - A formatted PDF document containing comprehensive festival information
 
-## License
-MIT License
-
 ## Author
 Matěj Krejčí
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-## Acknowledgments
-- Data sourced from official film festival websites
-- Inspired by the need for structured film festival information
