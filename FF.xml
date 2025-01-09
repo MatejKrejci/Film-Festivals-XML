@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="FFSchematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- <?xml-model href="FFSchema.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?> -->
+<filmFestivals xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://matej-krejci.cz/xml/filmFestivals FFSchema.xsd"
+    xmlns="http://matej-krejci.cz/xml/filmFestivals">
+    <festival name="Festival de Cannes" status="past">
+        <location>
+            <city>Cannes</city>
+            <country>France</country>
+            <venue>Palais des Festivals</venue>
+            <capacity>2000</capacity>
+        </location>
+        <dates>
+            <start>2023-05-16</start>
+            <end>2023-05-27</end>
+        </dates>
+        <numberOfFilms total="21" featureFilms="15" shortFilms="6"/>
+        <awards>
+            <award category="Best Film" winner="Anatomy of a Fall">Palme d'Or</award>
+            <award category="Second Best Film" winner="The Zone of Interest">Grand Prix</award>
+            <award category="Best Director" winner="Tran Anh Hung">Best Director Award</award>
+        </awards>
+        <specialGuests>
+            <guest role="actress" nationality="American">Jane Fonda</guest>
+            <guest role="influencer" nationality="American">Charli D'Amelio</guest>
+        </specialGuests>
+        <partners>
+            <partner>Air France</partner>
+            <partner>BMW</partner>
+            <partner>Mastercard</partner>
+        </partners>
+        <website>https://www.festival-cannes.com</website>
+        <tickets currency="EUR">
+            <ticket price="50" availability="sold out">basic</ticket>
+            <ticket price="5750" availability="sold out">premium</ticket>
+        </tickets>
+        <image
+            url="https://seeklogo.com/images/F/festival-de-cannes-logo-AAF63F6818-seeklogo.com.png"
+            type="logo" alt="Logo of Festival de Cannes"/>
+    </festival>
+
+    <festival name="Sundance Film Festival" status="past">
+        <location>
+            <city>Park City</city>
+            <country>Utah</country>
+            <venue>Multiple Venues</venue>
+            <capacity>3000</capacity>
+        </location>
+        <dates>
+            <start>2023-01-19</start>
+            <end>2023-01-29</end>
+        </dates>
+        <numberOfFilms total="120" featureFilms="90" documentaryFilms="30"/>
+        <specialGuests>
+            <guest role="actor" nationality="Chilean">Pedro Pascal</guest>
+        </specialGuests>
+        <partners>
+            <partner>Adobe</partner>
+            <partner>Dolby</partner>
+        </partners>
+        <website>https://www.sundance.org</website>
+        <tickets currency="USD">
+            <ticket price="150" availability="on sale">basic</ticket>
+            <ticket price="1000" availability="on sale">premium</ticket>
+        </tickets>
+        <image
+            url="https://www.sundance.org/wp-content/uploads/2023/09/SFF24_FillWordmark_BLK_TXTKO-1-e1697151616506.png"
+            type="logo" alt="Logo of Sundance Film Festival"/>
+    </festival>
+
+    <festival name="Berlinale" status="past">
+        <location>
+            <city>Berlin</city>
+            <country>Germany</country>
+            <venue>Berlinale Palast</venue>
+            <capacity>1800</capacity>
+        </location>
+        <dates>
+            <start>2023-02-16</start>
+            <end>2023-02-26</end>
+        </dates>
+        <numberOfFilms total="400" featureFilms="250" shortFilms="150"/>
+        <awards>
+            <award category="Best Film" winner="Sur l'Adamant">Golden Bear</award>
+            <award category="Best Director" winner="Christian Petzold">Silver Bear</award>
+        </awards>
+        <specialGuests>
+            <guest role="actor" nationality="Irish">Cillian Murphy</guest>
+            <guest role="actress" nationality="American">Rooney Mara</guest>
+        </specialGuests>
+        <partners>
+            <partner>Uber</partner>
+            <partner>Armani</partner>
+            <partner>Mastercard</partner>
+        </partners>
+        <website>https://www.berlinale.de</website>
+        <tickets currency="EUR">
+            <ticket price="20" availability="on sale">basic</ticket>
+            <ticket price="500" availability="on sale">premium</ticket>
+        </tickets>
+        <image url="https://www.liblogo.com/img-logo/be1902b05d-berlinale-logo-berlinale-logo-.png"
+            type="logo" alt="Logo of Berlinale"/>
+    </festival>
+
+    <festival name="Toronto International Film Festival" status="past">
+        <location>
+            <city>Toronto</city>
+            <country>Canada</country>
+            <venue>Roy Thomson Hall</venue>
+            <capacity>3000</capacity>
+        </location>
+        <dates>
+            <start>2023-09-07</start>
+            <end>2023-09-17</end>
+        </dates>
+        <numberOfFilms total="250" featureFilms="180" documentaryFilms="70"/>
+        <awards>
+            <award category="Best Feature Film" winner="American Fiction">People's Choice
+                Award</award>
+        </awards>
+        <specialGuests>
+            <guest role="actor" nationality="English">Daniel Craig</guest>
+            <guest role="musician" nationality="American">Pharrell Williams</guest>
+        </specialGuests>
+        <partners>
+            <partner>Rogers</partner>
+            <partner>Royal Bank</partner>
+            <partner>Visa</partner>
+        </partners>
+        <website>https://www.tiff.net</website>
+        <tickets currency="CAD">
+            <ticket price="25" availability="on sale">basic</ticket>
+            <ticket price="500" availability="on sale">premium</ticket>
+        </tickets>
+        <image
+            url="https://rdvcanada.ca/wp-content/uploads/gravity_forms/16-8be958264caa11f8ba4dfc0751c5a81c/2023/02/white-TIFF_logo_blk_TM-01-768x768.png"
+            type="logo" alt="Logo of Toronto International Film Festival"/>
+    </festival>
+
+    <festival name="Venice Film Festival" status="past">
+        <location>
+            <city>Venice</city>
+            <country>Italy</country>
+            <venue>Palazzo del Cinema</venue>
+            <capacity>1400</capacity>
+        </location>
+        <dates>
+            <start>2023-08-30</start>
+            <end>2023-09-09</end>
+        </dates>
+        <numberOfFilms total="80" featureFilms="60" shortFilms="20"/>
+        <awards>
+            <award category="Best Film" winner="Poor Things">Golden Lion</award>
+            <award category="Best Director" winner="Matteo Garrone">Silver Lion</award>
+        </awards>
+        <specialGuests>
+            <guest role="singer" nationality="American">Lady Gaga</guest>
+            <guest role="actor" nationality="American">Joaquin Phoenix</guest>
+        </specialGuests>
+        <partners>
+            <partner>Armani Beauty</partner>
+            <partner>Mastercard</partner>
+            <partner>Cartier</partner>
+        </partners>
+        <website>https://www.labiennale.org</website>
+        <tickets currency="EUR">
+            <ticket price="50" availability="on sale">basic</ticket>
+            <ticket price="2500" availability="on sale">premium</ticket>
+        </tickets>
+        <image
+            url="https://w7.pngwing.com/pngs/773/26/png-transparent-2016-venice-film-festival-venice-biennale-of-architecture-2017-venice-international-film-festival-actor-celebrities-mammal-cat-like-mammal.png"
+            type="logo" alt="Logo of Venice Film Festival"/>
+    </festival>
+
+    <festival name="Rotterdam International Film Festival" status="past">
+        <location>
+            <city>Rotterdam</city>
+            <country>Nizozemsko</country>
+            <venue>Luxor Theater</venue>
+            <capacity>800</capacity>
+        </location>
+        <dates>
+            <start>2023-01-25</start>
+            <end>2023-02-05</end>
+        </dates>
+        <numberOfFilms total="200" featureFilms="150" shortFilms="50"/>
+        <awards>
+            <award category="Feature" winner="Oktay Baraheni">Big Screen Award</award>
+        </awards>
+        <specialGuests>
+            <guest role="actor" nationality="American">Joaquin Phoenix</guest>
+        </specialGuests>
+        <partners>
+            <partner>Fonds 21</partner>
+            <partner>droom en daad</partner>
+            <partner>Vriendenloterij</partner>
+        </partners>
+        <website>https://www.iffr.com</website>
+        <tickets currency="EUR">
+            <ticket price="20" availability="on sale">basic</ticket>
+            <ticket price="500" availability="on sale">premium</ticket>
+        </tickets>
+        <image
+            url="https://seeklogo.com/images/I/international-film-festival-rotterdam-logo-F6F2AFD917-seeklogo.com.png"
+            type="logo" alt="Logo of Rotterdam International Film Festival"/>
+    </festival>
+
+    <festival name="AFI Fest" status="past">
+        <location>
+            <city>Los Angeles</city>
+            <country>USA</country>
+            <venue>Chinese Theatre</venue>
+            <capacity>1000</capacity>
+        </location>
+        <dates>
+            <start>2023-11-01</start>
+            <end>2023-11-06</end>
+        </dates>
+        <numberOfFilms total="150" featureFilms="100" documentaryFilms="50"/>
+        <awards>
+            <award category="Feature" winner="Killers of the Flower Moon">NYFF Audience
+                Award</award>
+        </awards>
+        <specialGuests>
+            <guest role="actress" nationality="American">Angelina Jolie</guest>
+        </specialGuests>
+        <partners>
+            <partner>Apple</partner>
+            <partner>Original Films</partner>
+        </partners>
+        <website>https://www.afi.com</website>
+        <tickets currency="USD">
+            <ticket price="50" availability="on sale">basic</ticket>
+            <ticket price="800" availability="on sale">premium</ticket>
+        </tickets>
+        <image
+            url="https://prdaficalmjediwestussa.blob.core.windows.net/images/2022/04/FEST22_Logo_3_NO-DATE-ST-BLK-300x300.png"
+            type="logo" alt="Logo of AFI Fest"/>
+    </festival>
+
+    <festival name="New York Film Festival" status="past">
+        <location>
+            <city>New York</city>
+            <country>USA</country>
+            <venue>Lincoln Center</venue>
+            <capacity>2500</capacity>
+        </location>
+        <dates>
+            <start>2023-09-29</start>
+            <end>2023-10-15</end>
+        </dates>
+        <numberOfFilms total="30" featureFilms="20" documentaryFilms="10"/>
+        <awards>
+            <award category="Feature" winner="Killers of the Flower Moon">NYFF Audience
+                Award</award>
+        </awards>
+        <specialGuests>
+            <guest role="actress" nationality="American">Angelina Jolie</guest>
+            <guest role="singer" nationality="American">Selena Gomez</guest>
+        </specialGuests>
+        <partners>
+            <partner>HBO</partner>
+            <partner>The New York Times</partner>
+        </partners>
+        <website>https://www.filmlinc.org</website>
+        <tickets currency="USD">
+            <ticket price="100" availability="on sale">basic</ticket>
+            <ticket price="6000" availability="on sale">premium</ticket>
+        </tickets>
+        <image
+            url="https://upload.wikimedia.org/wikipedia/commons/9/96/New_York_Film_Festival_logo.png"
+            type="logo" alt="Logo of New York Film Festival"/>
+    </festival>
+
+    <festival name="Melbourne International Film Festival" status="past">
+        <location>
+            <city>Melbourne</city>
+            <country>Austrálie</country>
+            <venue>ACMI</venue>
+            <capacity>1200</capacity>
+        </location>
+        <dates>
+            <start>2023-08-03</start>
+            <end>2023-08-20</end>
+        </dates>
+        <numberOfFilms total="400" featureFilms="300" shortFilms="100"/>
+        <awards>
+            <award category="Feature" winner="Past Lives">MIFF Audience Award</award>
+        </awards>
+        <specialGuests>
+            <guest role="actress" nationality="American">Demi Moore</guest>
+        </specialGuests>
+        <partners>
+            <partner>VicScreen</partner>
+            <partner>Bank Australia</partner>
+        </partners>
+        <website>https://www.miff.com.au</website>
+        <tickets currency="AUD">
+            <ticket price="30" availability="on sale">basic</ticket>
+            <ticket price="450" availability="on sale">premium</ticket>
+        </tickets>
+        <image url="https://pbs.twimg.com/profile_images/1275924401234382848/_lgVmiVk_400x400.jpg"
+            type="logo" alt="Logo of Melbourne International Film Festival"/>
+    </festival>
+    <!-- url="https://upload.wikimedia.org/wikipedia/commons/9/99/Melb-Film-Fest-logo.png"  -->
+
+
+
+    <festival name="Busan International Film Festival" status="past">
+        <location>
+            <city>Busan</city>
+            <country>Jižní Korea</country>
+            <venue>Busan Cinema Center</venue>
+            <capacity>4000</capacity>
+        </location>
+        <dates>
+            <start>2023-10-04</start>
+            <end>2023-10-13</end>
+        </dates>
+        <numberOfFilms total="300" featureFilms="220" documentaryFilms="80"/>
+        <awards>
+            <award category="Best Feature" winner="The Buriti Flower">New Currents Award</award>
+        </awards>
+        <specialGuests>
+            <guest role="actor" nationality="South Korean">Lee Jung-jae</guest>
+            <guest role="actor" nationality="South Korean">Song Joong-ki</guest>
+        </specialGuests>
+        <partners>
+            <partner>Chanel</partner>
+            <partner>Genesis</partner>
+            <partner>ICHNP</partner>
+            <partner>Busan Bank</partner>
+            <partner>Nutrilite</partner>
+            <partner>Shinhan Card</partner>
+        </partners>
+        <website>https://www.biff.kr</website>
+        <tickets currency="KRW">
+            <ticket price="10000" availability="on sale">basic</ticket>
+            <ticket price="57500" availability="on sale">premium</ticket>
+        </tickets>
+        <image url="https://asianfilmfestivals.com/wp-content/uploads/2018/03/biff2018.png"
+            type="logo" alt="Logo of Busan International Film Festival"/>
+    </festival>
+
+    <festival name="San Sebastián International Film Festival" status="past">
+        <location>
+            <city>San Sebastián</city>
+            <country>Španělsko</country>
+            <venue>Kursaal</venue>
+            <capacity>1800</capacity>
+        </location>
+        <dates>
+            <start>2023-09-22</start>
+            <end>2023-09-30</end>
+        </dates>
+        <numberOfFilms total="200" featureFilms="150" shortFilms="50"/>
+        <awards>
+            <award category="Best Film" winner="La Chimera">Golden Shell</award>
+        </awards>
+        <specialGuests>
+            <guest role="actor" nationality="Spanish">Javier Bardem</guest>
+        </specialGuests>
+        <partners>
+            <partner>rtve</partner>
+            <partner>eitb</partner>
+        </partners>
+        <website>https://www.sansebastianfestival.com</website>
+        <tickets currency="EUR">
+            <ticket price="20" availability="on sale">basic</ticket>
+            <ticket price="360" availability="on sale">premium</ticket>
+        </tickets>
+        <image
+            url="https://wfcnmediauploads.s3.amazonaws.com/avatars/09-2023/1694670795_65029fcba6a84_Untitled_design_(14).png"
+            type="logo" alt="Logo of San Sebastián International Film Festival"/>
+    </festival>
+
+    <festival name="Tribeca Film Festival" status="upcoming">
+        <location>
+            <city>New York</city>
+            <country>USA</country>
+            <venue>Tribeca Film Center</venue>
+            <capacity>1200</capacity>
+        </location>
+        <dates>
+            <start>2025-06-07</start>
+            <end>2025-06-18</end>
+        </dates>
+        <numberOfFilms total="100" featureFilms="70" documentaryFilms="30"/>
+        <awards>
+            <award category="Feature">Best Narrative Feature</award>
+        </awards>
+        <specialGuests>
+            <guest role="actor" nationality="American">Johnny Depp</guest>
+            <guest role="actor" nationality="Spanish">Javier Bardem</guest>
+        </specialGuests>
+        <partners>
+            <partner>WEB3</partner>
+            <partner>Chanel</partner>
+            <partner>Audible</partner>
+            <partner>indeed</partner>
+        </partners>
+        <website>https://www.tribecafilm.com</website>
+        <tickets currency="USD">
+            <ticket price="30" availability="on sale">basic</ticket>
+            <ticket price="1200" availability="on sale">premium</ticket>
+        </tickets>
+        <image
+            url="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Tribeca_Film_Festival_logo.svg/2560px-Tribeca_Film_Festival_logo.svg.png"
+            type="logo" alt="Logo of Tribeca Film Festival"/>
+    </festival>
+</filmFestivals>
